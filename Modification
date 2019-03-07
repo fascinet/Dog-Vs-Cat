@@ -1,0 +1,2 @@
+We can change the target_size,size of batches, such as input_shape = (64, 64, 3) here we change 128 or 256 but remember by increasing this it would get slow so we need a good GPU to run it.
+Note : We don't have so much image for learning so what we do  for each image we create a new images by rescaling,zooming,flipping.
